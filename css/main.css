@@ -682,15 +682,21 @@ a         { color: #91736b; text-decoration: none; }
     padding-left: 10px;
     float: left;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 12px;
+    text-align:center;
 }
-.aside-contact .det-text p {
+.aside-contact .det-text p:first-child {
     padding-top: 0;
     margin-top: 0;
+    font-family: 'STXingkai';
+    font-size: 20px;
+    line-height: 20px;
 }
 .aside-contact .det-text p:last-child {
+
     padding-bottom: 0;
     margin-bottom: 0;
+
 }
 .aside-item {
     margin: 20px 0;
