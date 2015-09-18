@@ -19,20 +19,28 @@ comment: true
     <div class="fn-clear"></div>
     <div class="social">
         {% for link in site.follow %}
-        <a href="{{ link.url }}" target="_blank"><i class="{{ link.class }}"></i></a>
+        <a href="{{ link.url }}" target="_blank"><i class="{{ link.class }}"></i></a></div>
         {% endfor %}
     </div>
     <div class="fn-clear"></div>
     <div class="contact">
         <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
     </div>
-    <div class="comment">
-        {% if site.disqus.config %}
-        <div id="disqus_thread"></div>
-        {% else %}
-            {% if site.duoshuo.config %}
-            <div class="ds-thread"></div>
-            {% endif %}
-        {% endif %}
-    </div>
+
+                    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="contactID" data-title="contactTITLE" data-url="contactURL"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"daidaidexiaomantou"};
+        (function() {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';ds.async = true;
+            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0] 
+             || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+    </script>
+<!-- 多说公共JS代码 end -->
 </div>

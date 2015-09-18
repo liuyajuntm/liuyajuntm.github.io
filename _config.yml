@@ -54,9 +54,9 @@ nav:
 #Author config
 author:
     name: 呆呆de小馒头
-    email: hellolinpingping5662@gmail.com
+    email: 
     imageLink: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
-    simpleIntro: 或许命运的签只让我们遇见  只让我们相恋  
+    simpleIntro: "或许命运的签只让我们遇见只让我们相恋"
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
@@ -80,10 +80,3 @@ googleAnaly:
   id: UA-40169250-1
 
 #comment config
-disqus:
-  config: false
-  id: user1
-
-duoshuo:
-  config: true
-  id: user2
