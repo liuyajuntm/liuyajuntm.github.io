@@ -484,7 +484,7 @@ a         { color: #91736b; text-decoration: none; }
     width: 380px;
     float: left;
     margin-right: 20px;
-    font-family: STXingkai;
+    font-family: 'STXingkai';
     font-size: 25px;
 }
 .main .article .about-text p:first-child {
@@ -737,6 +737,6 @@ a         { color: #91736b; text-decoration: none; }
 
 
 .tm_poem_font {
-    font-family:STXingkai;
+    font-family:'STXingkai';
     font-size: 20px;
 }
