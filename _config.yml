@@ -55,23 +55,38 @@ nav:
 author:
     name: 呆呆de小馒头
     email: 
-    imageLink: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
-    simpleIntro: "或许命运的签只让我们遇见只让我们相恋"
+    imageLink: ../images/tm.jpg
+    simpleIntro: "我想变成一个包子"
+    detailIntro: "...<br>
+    拼命想挽回的从前<br>在我脸上依旧清晰可见<br>最美的不是下雨天<br>是曾与你躲过雨的屋檐<br>
+    ...<br>
+    或许命运的签<br>只让我们遇见<br>只让我们相恋<br>
+    ..."
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
   - class: icon-weibo
-    url: http://www.weibo.com/u/1705150047/home?wvr=5
+    url: http://www.weibo.com/u/1705150047
+  - class: icon-google-plus
+    url: hellolinpingping5662@gmail.com
+  - class: icon-github
+    url: https://github.com/liuyajuntm
+  - class: icon-twitter
+    url: https://twitter.com/liuyajuntm
+  - class: icon-facebook
+    url: https://www.facebook.com/profile.php?id=100007914678289
+
+
 
 #Links
 customLinks:
   - item:
-    - text: weibo
-      url: http://www.weibo.com/u/1705150047/home?wvr=5
+    - text: WEIBO
+      url: http://www.weibo.com/u/1705150047
     message: Friends
   - item:
-    - text: sina
-      url: http://www.sina.com.cn
+    - text: SISTAR
+      url: http://baike.baidu.com/link?url=9Waoz1AgkOY-tXYu6TEYKcXcxip0gAm6ly0AxHw-Lnw1d8HScAkoKMcMIZuwb5IqVdN4IbuoQIqtwwlhKP59y_
     message: 其他相关链接
 
 #googleAnaly, your id link UA-12345678-X

@@ -5,6 +5,7 @@
 /*****************************************************************************/
 
 /* Global Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -483,6 +484,8 @@ a         { color: #91736b; text-decoration: none; }
     width: 380px;
     float: left;
     margin-right: 20px;
+    font-family: STXingkai;
+    font-size: 25px;
 }
 .main .article .about-text p:first-child {
     margin-top: 0;
@@ -730,4 +733,10 @@ a         { color: #91736b; text-decoration: none; }
     padding-top: 20px;
     height: 80px;
     margin: 0 auto;
+}
+
+
+.tm_poem_font {
+    font-family:STXingkai;
+    font-size: 20px;
 }
