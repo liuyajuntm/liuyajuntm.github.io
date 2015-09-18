@@ -1,0 +1,89 @@
+# Where things are
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+layouts:      ./_layouts
+paginate:     8
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
+
+# Conversion
+markdown:     kramdown
+highlighter:  pygments
+lsi:          false
+excerpt_separator: "\n\n"
+
+# Serving
+baseurl:      "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+
+#Site config
+title: 呆呆de小馒头
+
+#Nav config
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 分类目录 
+    url: /categories.html
+  - text: 文章归档
+    url: /archives.html
+  - text: 联系我
+    url: /contact.html
+  - text: 友情链接
+    url: /links.html
+
+#Author config
+author:
+    name: 呆呆de小馒头
+    email: hellolinpingping5662@gmail.com
+    imageLink: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
+    simpleIntro: 或许命运的签只让我们遇见  只让我们相恋  
+
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+  - class: icon-weibo
+    url: http://www.weibo.com/u/1705150047/home?wvr=5
+
+#Links
+customLinks:
+  - item:
+    - text: weibo
+      url: http://www.weibo.com/u/1705150047/home?wvr=5
+    message: Friends
+  - item:
+    - text: sina
+      url: http://www.sina.com.cn
+    message: 其他相关链接
+
+#googleAnaly, your id link UA-12345678-X
+googleAnaly:
+  config: true
+  id: UA-40169250-1
+
+#comment config
+disqus:
+  config: false
+  id: user1
+
+duoshuo:
+  config: true
+  id: user2
