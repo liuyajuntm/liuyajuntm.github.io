@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  [转]JavaScript 性能优化杀手
+title:  转JavaScript 性能优化杀手
 date:   2015-09-23 10:27:11
 category: "javascript"
 ---
@@ -241,11 +241,12 @@ arguments 对象不能被传递或者泄露到任何地方.
 上面的技巧就用到了 Bluebird 中, 在 build 后会被扩充为下面这样:
 
 	function doesntLeakArguments() {
-	    var $_len = arguments.length;var args = new Array($_len); for(var $_i = 0; $_i < $_len; ++$_i) {args[$_i] = arguments[$_i];}
+	    var $_len = arguments.length;var args = new Array($_len); 
+	    for(var $_i = 0; $_i < $_len; ++$_i) {args[$_i] = arguments[$_i];}
 	    return args;
 	}
 
-#### 3.3. 对 arguments 赋值
+#### 3.3 对 arguments 赋值
 
 在非严格模式下, 这其实是可能的:
 
