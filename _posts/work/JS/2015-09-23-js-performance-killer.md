@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  \[转\]JavaScript 性能优化杀手
+title:  [转]JavaScript 性能优化杀手
 date:   2015-09-23 10:27:11
 category: "javascript"
 ---
