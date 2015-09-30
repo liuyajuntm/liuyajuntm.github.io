@@ -16,6 +16,3 @@ catetory: "feeling"
 你很好，可是你的好没有给我，你的好对于我有什么意义。  
 
 如果你的好只能给陌生人，那就让我成为陌生人好了。  
-
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="http://music.163.com/outchain/player?type=2&id=210062&auto=1&height=32"></iframe>
