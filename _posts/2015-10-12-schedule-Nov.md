@@ -30,5 +30,8 @@ category: "schedule"
 	- redux
 	- react-hot-loader
 	- Immutable
+	- PureRenderMixin 
+	- react-router
+	- ES 6语法
 	- bable
 	- webpack
