@@ -28,6 +28,7 @@ category: "schedule"
 2. 了解以下框架
 	- react
 	- redux
+	- react-hot-loader
 	- Immutable
 	- bable
 	- webpack
