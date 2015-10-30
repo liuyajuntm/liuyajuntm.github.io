@@ -31,3 +31,6 @@ category: "javascript"
 	    Child.prototype = new Father();
 	    Child.prototype.constructor = Child;
 
+	    var chi = new Child();
+	    chi.__proto__ === Child.prototype
+
