@@ -1,0 +1,2 @@
+1. 虚拟dom树的比较：http://segmentfault.com/a/1190000000606216
+2. JSX本质上可以翻译为纯JS：https://www.packtpub.com/books/content/using-reactjs-without-jsx
