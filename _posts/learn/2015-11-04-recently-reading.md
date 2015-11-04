@@ -14,3 +14,5 @@ category: "learn"
 [20行JavaScript代码实现Router](http://zhuxinyong.com/2014/12/05/20%E8%A1%8CJavaScript%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0Router/)
 
 [JavaScript实现前端路由](http://www.w3cfuns.com/blog-5440229-5406799.html)
+
+[编写高质量代码：改善JavaScript程序的188个建议](http://book.2cto.com/201211/9239.html) 
