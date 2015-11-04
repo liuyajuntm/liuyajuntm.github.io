@@ -1,1 +1,1 @@
-## 博客地址： [liuyajuntm.github.io](liuyajuntm.github.io)
+## 博客地址： [liuyajuntm.github.io](http://liuyajuntm.github.io/)
