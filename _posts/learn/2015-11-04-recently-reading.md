@@ -7,6 +7,8 @@ category: "learn"
 
 ## 2015年11月04日
 
+[重构 gulpfile.js](http://segmentfault.com/a/1190000002880177)
+
 [gulp构建进阶](http://www.html-js.com/article/The-end-of-construction-of-advanced-workflow-gulp)
 
 [自己写一个promise](http://www.html-js.com/article/Buildyourownpromise-blog-build-their-own-promise%203235)
