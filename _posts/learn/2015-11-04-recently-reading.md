@@ -5,6 +5,11 @@ date: 2015-11-04 11:45:23
 category: "learn"
 ---
 
+## 2015年11月16日
+
+https://github.com/grz/cpujs/wiki/CPUJS%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3
+这个东西是用nodejs穿windows api的，谁有空改下源码让cef能跑？？
+
 ## 2015年11月04日
 
 [重构 gulpfile.js](http://segmentfault.com/a/1190000002880177)
