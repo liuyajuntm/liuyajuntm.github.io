@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "COMMONJS&ES6模块加在机制"
+title: "COMMONJS&ES6模块加载机制"
 date: 2015-11-09 15:48:33
 category: "javascript"
 ---
