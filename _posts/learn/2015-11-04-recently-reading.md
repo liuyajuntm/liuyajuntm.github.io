@@ -5,6 +5,10 @@ date: 2015-11-04 11:45:23
 category: "learn"
 ---
 
+## 2015年12月4日
+
+https://developers.google.com/web/fundamentals/performance/?hl=zh-cn
+
 ## 2015年11月16日
 
 https://github.com/grz/cpujs/wiki/CPUJS%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3
