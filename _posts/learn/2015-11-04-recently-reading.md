@@ -5,7 +5,13 @@ date: 2015-11-04 11:45:23
 category: "learn"
 ---
 
+## 2015年12月8日
+
+http://www.zhihu.com/question/31350233/answer/51567703
+
+
 ## 2015年12月4日
+
 虚拟dom：
 
 http://segmentfault.com/a/1190000004089393?utm_source=Weibo&utm_medium=shareLink&utm_campaign=socialShare
