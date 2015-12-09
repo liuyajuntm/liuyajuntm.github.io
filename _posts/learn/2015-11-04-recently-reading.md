@@ -7,6 +7,15 @@ category: "learn"
 
 ## 2015年12月8日
 
+如果要测试性能，不要在浏览器控制台下测试：
+
+http://www.zhihu.com/question/29352114/answer/44050599
+
+Kinoma XS6 是一款怎样的 JavaScript 引擎？：
+
+http://www.zhihu.com/question/38332604/answer/75904396
+
+
 http://www.zhihu.com/question/31350233/answer/51567703
 
 
