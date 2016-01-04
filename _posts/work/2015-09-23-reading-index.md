@@ -71,7 +71,7 @@ webpack的loader API:
 [为何要使用max1](http://blog.youxu.info/2010/02/28/why-mac-os-x-for-programmers/)
 [为何要使用max2](http://tiny4.org/blog/2010/02/why-programmers-should-use-mac-os-x/)
 
-[编码道德](http://www.zhihu.com/question/31070133)
+<del>[编码道德](http://www.zhihu.com/question/31070133)</del>
 
 [不可变数据1](http://zhuanlan.zhihu.com/prattle/19982379)
 [不可变数据2](http://segmentfault.com/a/1190000002957634)
