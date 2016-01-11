@@ -18,4 +18,3 @@ category: "javascript"
 3. focus和blur事件不会冒泡
 	- 对应的focusin和focusout会冒泡
 	- 所以如果需要冒泡的话，需要将focus转换为focusin事件，将blur转换为focusout
-
