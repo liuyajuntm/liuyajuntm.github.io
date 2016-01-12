@@ -23,4 +23,18 @@ category: "schedule"
 10. 早晨8点之前出门
 11. 吉他课程5节
 
+12. 需要阅读的文章：
+	- [react渲染原理解析](http://purplebamboo.github.io/2015/09/15/reactjs_source_analyze_part_one/)
+	- [react入门](http://www.ruanyifeng.com/blog/2015/03/react.html)
+	- [Immutable 详解及 React 中实践](http://zhuanlan.zhihu.com/purerender/20295971)
+	- [React 源码剖析系列 － 生命周期的管理艺术](http://zhuanlan.zhihu.com/purerender/20312691)
+	- [React 源码剖析系列 － 解密 setState](http://zhuanlan.zhihu.com/purerender/20328570)
+	- [React Motion 缓动函数剖析](http://zhuanlan.zhihu.com/purerender/20458251)
+	- [React 源码剖析系列 － 玩转 React Transition](http://zhuanlan.zhihu.com/purerender/20419592)
+	- [深入理解 react-router 路由系统](http://zhuanlan.zhihu.com/purerender/20381597)
+	- [React 源码剖析系列 － 不可思议的 react diff](http://zhuanlan.zhihu.com/purerender/20346379)
+	- [Vue.js 源码学习笔记](http://jiongks.name/blog/vue-code-review/)
+	- [react架构](https://github.com/janryWang/react-study)
+
+
 
