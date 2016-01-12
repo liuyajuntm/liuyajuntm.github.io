@@ -35,6 +35,7 @@ category: "schedule"
 	- [React 源码剖析系列 － 不可思议的 react diff](http://zhuanlan.zhihu.com/purerender/20346379)
 	- [Vue.js 源码学习笔记](http://jiongks.name/blog/vue-code-review/)
 	- [react架构](https://github.com/janryWang/react-study)
+	- [react从各种概念详解](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
 
 
 
