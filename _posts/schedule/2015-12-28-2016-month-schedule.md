@@ -36,6 +36,7 @@ category: "schedule"
 	- [Vue.js 源码学习笔记](http://jiongks.name/blog/vue-code-review/)
 	- [react架构](https://github.com/janryWang/react-study)
 	- [react从各种概念详解](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
-
+	
+13. 了解gitbooks，将博客迁移到gitbooks
 
 
