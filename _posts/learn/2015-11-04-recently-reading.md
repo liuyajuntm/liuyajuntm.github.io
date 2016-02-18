@@ -5,6 +5,10 @@ date: 2015-11-04 11:45:23
 category: "learn"
 ---
 
+## 2016年2月2日
+
+[Magic Leap 和微软的 HoloLens 相比有哪些异同点？](https://www.zhihu.com/question/36921637)
+
 ## 2015年12月10日
 
 [深度剖析：如何实现一个 Virtual DOM 算法](http://web.jobbole.com/84408/)
