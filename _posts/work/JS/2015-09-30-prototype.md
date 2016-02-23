@@ -34,3 +34,52 @@ category: "javascript"
 	    var chi = new Child();
 	    chi.__proto__ === Child.prototype
 
+5. 另一个例子:
+
+		var A = function(){
+
+		}
+		A.price = 1;
+		A.prototype.price = 2;
+		var a = new A();
+
+		var B = function(){
+
+		}
+		B.prototype = A;
+		B.prototype.constructor = B;
+		B.price = 3;
+		var b = new B();
+
+		var C = function(){
+
+		}
+		C.prototype = new A();
+		C.prototype.constructor = C;
+		C.price = 4;
+		var c = new C();
+		console.log("test 1");
+		console.log(A.price);//1
+		console.log(a.price);//2
+		console.log(B.price);//3
+		console.log(b.price);//1
+		console.log(C.price);//4
+		console.log(c.price);//2
+
+		console.log("test 2");
+		A.prototype.price = 5;
+		console.log(A.price);//1
+		console.log(a.price);//5
+		console.log(B.price);//3
+		console.log(b.price);//1
+		console.log(C.price);//4
+		console.log(c.price);//5
+
+		console.log("test 3");
+		C.prototype.price = 6;
+		console.log(A.price);//1
+		console.log(a.price);//5
+		console.log(B.price);//3
+		console.log(b.price);//1
+		console.log(C.price);//4
+		console.log(c.price);//6
