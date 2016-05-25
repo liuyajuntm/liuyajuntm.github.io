@@ -25,6 +25,8 @@ category: "javascript"
 
 	    }
 
+
+
 	    function Child(){
 
 	    }
@@ -83,3 +85,43 @@ category: "javascript"
 		console.log(b.price);//1
 		console.log(C.price);//4
 		console.log(c.price);//6
+
+## 函数中的this和prototype的区别
+	this上的东西并没有在prototype上
+```
+function Test(){
+	this.name1 = "1";
+}
+Test.prototype.name2 = "2";
+
+var test  = new Test();
+test.name1;//1
+test.name2;//2
+
+var a = {};
+a.__proto__ = Test.prototype;
+a.name1;//undefined;
+a.name2;//2
+
+a.__proto__ = new Test();
+test.name1;//1
+test.name2;//2
+
+var B = function(){
+	
+}
+
+B.prototype = Test.prototype;
+
+var b = new B();
+b.name1;//undefined
+b.name2;//2
+
+B.prototype = new Test();
+
+var b = new B();
+b.name1;//1
+b.name2;//2
+
+```
+之所以推荐的继承方式是B.prototype = new Test();而不是B.prototype = Test.prototype;是为了name1也能被继承。但是有些情况你本来就不想继承name1，就应该采用B.prototype = Test.prototype
