@@ -6,8 +6,12 @@ category: "frontend"
 ---
 
 1. 通过rem 和 viewport可以解决大部分的移动端适配问题
-2. 区分设备像素和设备独立像素,css是设备独立像素
+2. 区分设备像素和设备独立像素
+	- 物理分辨率简称dp单位是px,css像素简称dips的单位是dp,好绕啊
+	- 由于在PC端1PX = 1DP,所以很少区别他们的差异，但是在移动端他们两者有巨大的差异
+	- 并不是说在CSS中设置的像素就是CSS像素，而是使用dp为单位的像素才叫CSS像素(标准成为是设备独立像素)
 3. rem只能解决每个元素按照比例缩放，能保证宽度，不能保证高度
+4. 厂商所说的分辨率是基于物理像素的
 
 [设备分辨率和设备无关分辨率1](https://isux.tencent.com/mobile-development-essential-knowledge.html)
 [设备分辨率和设备无关分辨率2](http://toutiao.com/i6289018380540183042/)
